@@ -41,7 +41,7 @@ jobs:
           mkdir -p docs
           cp -r dist/. docs/
           touch docs/CNAME
-          echo "nublock.snapshot.ing" >> docs/CNAME
+          echo "www.snapshot.ing" >> docs/CNAME
           ls -la docs
 
       - name: Commit docs output if changed
